@@ -1,0 +1,56 @@
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: left;
+	width: 100%;
+
+}
+
+h1 {
+  font-family: Palatino, 'Palatino Linotype', serif;	/* Font family */
+	color: red;											/* Font color / rgb(128,0,128) would be purple, AntiqueWhite, #2e69a3 */
+	font-size: 32px;	/*pixel font size value*/
+
+}
+.hero {		/*this effects .hero class*/
+	
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding: 250px 0;
+	margin: 30px;		/*margin-top: 20px;  bottom,left,right are other options*/
+	color: #ffffff;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg");
+	background-size: cover; /*not neccessary, if sizing seems off*/
+
+}
+h2 {			
+	font-size: 48px;
+	color: purple;
+}
+
+p {
+font-size: 2rem; /*rem font size value, another is 1.25em*/
+border: 2px solid black; 
+; /*adds border. border: 5px solid #FFF; would add invisible white borders*/
+
+}
+
+.hero a {
+	color: green;
+	font-size: 52px; 
+	text-decoration: none;
+}
+#footer {       /*this is an ID Selector, which is more specific than classes*/
+  font-size: 2.00rem;
+}
+
+nav li {			/*Gives the nav list inline position*/
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+.contact-btn {		/*floats the contact button up to the right instead of being down below on the left*/
+  float: right;
+  font-size: 32px;
+}
